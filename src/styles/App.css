@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+	margin-top: 55px;
+}
+
+.skill-row {
+	margin-bottom: 50px;
+}
+
+.skill {
+	margin: 2px;
+}

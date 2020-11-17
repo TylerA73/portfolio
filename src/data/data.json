@@ -1,0 +1,46 @@
+{
+	"languages": [
+		{
+			"name": "Java",
+			"level": 80
+		},
+		{
+			"name": "JavaScript",
+			"level": 80
+		},
+		{
+			"name": "Go",
+			"level": 60
+		},
+		{
+			"name": "C#",
+			"level": 60
+		},
+		{
+			"name": "HTML & CSS",
+			"level": 60
+		}
+	],
+	"skills": [
+		{
+			"name": "Node.js",
+			"level": 80
+		},
+		{
+			"name": "React",
+			"level": 80
+		},
+		{
+			"name": "Microsoft SQL",
+			"level": 60
+		},
+		{
+			"name": "MySQL",
+			"level": 60
+		},
+		{
+			"name": "Git",
+			"level": 60
+		}
+	]
+}

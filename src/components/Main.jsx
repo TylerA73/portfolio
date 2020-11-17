@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Navigation from './Navigation';
 import About from './About';
 import Projects from './Projects';
+import data from '../data/data.json';
 
 /**
  * Name: Main
@@ -15,7 +16,7 @@ export default class Main extends Component {
 			<div>
 				<Navigation />
 				<Container fluid>
-					<About />
+					<About skills = { data.skills } languages = { data.languages }/>
 					<Projects />
 				</Container>
 			</div>

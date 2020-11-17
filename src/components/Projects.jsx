@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 /**
  * Name: Projects
@@ -8,11 +9,13 @@ export default class Projects extends Component {
 
 	render() {
 		return(
-			<div id="projects">
-				<h1>
-					Projects
-				</h1>
-			</div>
+			<Container fluid id="projects">
+				<Row>
+					<h2 className = "title">
+						Projects
+					</h2>
+				</Row>
+			</Container>
 		);
 	}
 

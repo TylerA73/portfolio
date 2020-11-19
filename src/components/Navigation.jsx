@@ -8,14 +8,14 @@ import { Navbar, Nav } from 'react-bootstrap';
 export default class Navigation extends Component {
 	render() {
 		return (
-			<Navbar sticky = "top" bg = "dark" variant = "dark" expand = "lg">
-				<Navbar.Brand href = "#home">Tyler Arseneault</Navbar.Brand>
-				<Navbar.Toggle aria-controls = "navbar-nav" />
-				<Navbar.Collapse id = "navbar-nav">
-					<Navbar.Text>
+			<Navbar className = "navigation" sticky = "top" bg = "dark" variant = "dark" expand = "lg">
+				<Navbar.Brand href = "#home" className = "navigation">Tyler Arseneault</Navbar.Brand>
+				<Navbar.Toggle aria-controls = "navbar-nav navigation" />
+				<Navbar.Collapse id = "navbar-nav" className = "navigation">
+					<Navbar.Text className = "navigation">
 						Software Developer
 					</Navbar.Text>
-					<Nav className = "ml-auto">
+					<Nav className = "ml-auto navigation">
 						<Nav.Link href = "#home">Home</Nav.Link>
 						<Nav.Link href = "#projects">Projects</Nav.Link>
 					</Nav>

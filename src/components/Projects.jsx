@@ -9,10 +9,9 @@ export default class Projects extends Component {
 
 	render() {
 		return(
-			<Container fluid id="projects">
+			<Container fluid id = "projects" className = "projects">
 				<Row>
 					<h2 className = "title">
-						Projects
 					</h2>
 				</Row>
 			</Container>

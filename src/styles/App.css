@@ -37,6 +37,15 @@
   }
 }
 
+body {
+	background-color: #41393e;
+}
+
+.bg-dark {
+	background-color: #41393e !important;
+	color: #fffffa;
+}
+
 .title {
 	margin-top: 55px;
 }
@@ -47,4 +56,36 @@
 
 .skill {
 	margin: 2px;
+	color: #fffffa;
 }
+
+.skills-row {
+	padding: 15px;
+}
+
+.about {
+	margin: auto;
+	text-align: center;
+	background-color: #bf9aca;
+	color: #41393e;
+}
+ .about-col {
+ 	text-align: center;
+ }
+
+ .logo {
+ 	border: 5px solid #41393e;
+	margin-top: 15px;
+ }
+
+ .progress-bar {
+ 	background-color: #477890;
+ }
+
+ .projects {
+ 	background-color: #584b53;
+ }
+
+ .container-fluid {
+ 	padding: 0px;
+ }

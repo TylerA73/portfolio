@@ -5,7 +5,7 @@ export default class Skill extends Component {
 	render() {
 		return (
 			<div className = "skill">
-				<ProgressBar now = {this.props.skill.level} label = {this.props.skill.name} />
+				<label>{this.props.skill.name}</label><ProgressBar now = {this.props.skill.level} />
 			</div>
 		);
 	}

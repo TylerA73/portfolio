@@ -42,5 +42,49 @@
 			"name": "Git",
 			"level": 60
 		}
+	],
+	"projects": [
+		{
+			"title": "Password Keychain",
+			"description": "A password keychain to encrypt and store passwords locally",
+			"technologies": [
+				"Go", "Redis"
+			],
+			"repo": "https://github.com/TylerA73/keychain"
+		},
+		{
+			"title": "Student Response System",
+			"description": "A RESTful Web Service for Instructors to create and host classrooms, while students join the classrooms and answer questions.",
+			"technologies": [
+				"JavaScript", "Vue.js", "Go", "Redis", "PostgreSQL"
+			],
+			"repo": "https://github.com/TylerA73/studentresponse"
+		},
+		{
+			"title": "Json Converter",
+			"description": "An application built with the intention of quickly converting stringified json to json, and vice versa.",
+			"technologies": [
+				"Java", "GSON", "JavaFX 11"
+			],
+			"repo": "https://github.com/TylerA73/JsonConverter"
+		},
+		{
+			"title": "Covid19 Data Viewer",
+			"description": "A Java application meant for the simple viewing of Covid19 data is specified countries.",
+			"technologies": [
+				"Java", "GSON", "JavaFX 11"
+			],
+			"repo": "https://github.com/TylerA73/covid19"
+		},
+		{
+			"title": "Currency Converter",
+			"description": "An Android application built to convert currency from USD to CAD",
+			"technologies": [
+				"Java", "Android SDK"
+			],
+			"repo": "https://github.com/TylerA73/CurrencyConverter"
+		}
+
+
 	]
 }

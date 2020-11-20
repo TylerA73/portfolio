@@ -61,6 +61,7 @@ body {
 
 .skills-row {
 	padding: 15px;
+	margin: 100px;
 }
 
 .about {
@@ -71,6 +72,9 @@ body {
 }
  .about-col {
  	text-align: center;
+	margin: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
  }
 
  .logo {
@@ -88,4 +92,14 @@ body {
 
  .container-fluid {
  	padding: 0px;
+ }
+
+ .project {
+ 	height: 300px;
+	margin: auto;
+ }
+
+ .project-row{
+ 	margin-left: 15px;
+	margin-right: 15px;
  }

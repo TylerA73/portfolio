@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Navigation from './Navigation';
+import Footer from './Footer';
 import About from './About';
 import Projects from './Projects';
 import data from '../data/data.json';
@@ -17,8 +18,9 @@ export default class Main extends Component {
 				<Navigation />
 				<Container fluid>
 					<About skills = { data.skills } languages = { data.languages }/>
-					<Projects />
+					<Projects projects = { data.projects } />
 				</Container>
+				<Footer />
 			</div>
 		);
 	}

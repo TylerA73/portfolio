@@ -1,7 +1,7 @@
 import { Component, Fragment } from 'react';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import Skill from './Skill';
-import logo from './pixelme.jpg';
+import logo from '../resources/pixelme.jpg';
 
 /**
  * Name: About
@@ -46,7 +46,7 @@ export default class About extends Component {
 					<div className = "about" id = "about">
 						<Row>
 							<Col className = "about-col">
-								<Image rounded className = "logo" src = {logo} />
+								<Image roundedCircle className = "logo" src = {logo} />
 							</Col>
 						</Row>
 						<Row>
@@ -59,17 +59,21 @@ export default class About extends Component {
 								Software Developer in Edmonton, Alberta, Canada
 							</Col>
 						</Row>
+						<Row>
+							<Col>
+								<a href = "mailto:tylera73@gmail.com">tylera73@gmail.com</a>
+							</Col>
+						</Row>
+
 					</div>
 				</Row>
 				<Row className = "about">
 					<Col xs = {12} sm = {12} md = {6} lg = {6} className = "about-col">
-						About me content
 					</Col>
 					<Col xs = {12} sm = {12} md = {6} lg = {6} className = "about-col">
-						More about me content	
 					</Col>
 				</Row>
-				<Row className = "skills-row">
+				<Row id = "skills" className = "skills-row">
 					<Col xs = {12} sm = {12} md = {6} lg = {6}>
 						<Row className = "skill-row">
 							<Col>
